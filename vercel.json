@@ -1,4 +1,35 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "app": {
+      "root": ".",
+      "framework": "vite"
+    },
+    "studio-iedc": {
+      "root": "studio-iedc",
+      "framework": "sanity"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/studio",
+      "destination": {
+        "service": "studio-iedc"
+      }
+    },
+    {
+      "source": "/studio/(.*)",
+      "destination": {
+        "service": "studio-iedc"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "app"
+      }
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
