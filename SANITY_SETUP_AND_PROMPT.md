@@ -84,7 +84,7 @@ Open your terminal and navigate to `studio-iedc`:
 cd studio-iedc
 npm run dev
 ```
-Open `http://localhost:3333` in your browser.
+Open `http://localhost:3333/studio` in your browser.
 
 ---
 

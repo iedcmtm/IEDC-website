@@ -64,6 +64,7 @@ npm install
 
 # Run Sanity Studio locally (port 3333)
 npm run dev
+# Open http://localhost:3333/studio in your browser
 ```
 
 ---
