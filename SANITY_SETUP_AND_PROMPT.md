@@ -93,7 +93,7 @@ If running locally on port 3000 or deploying to Vercel/Netlify:
 ```bash
 npx sanity cors add http://localhost:3000 --credentials
 npx sanity cors add http://localhost:5173 --credentials
-npx sanity cors add https://your-domain.vercel.app --credentials
+npx sanity cors add https://iedc-website-yg4z.vercel.app --credentials
 ```
 
 ---

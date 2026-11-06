@@ -72,12 +72,14 @@ npm run dev
 
 - **Project ID:** `s4nzdr3x`
 - **Dataset:** `production`
-- **Hosted Studio:** [https://s4nzdr3x.sanity.studio](https://s4nzdr3x.sanity.studio)
+- **Production URL:** [https://iedc-website-yg4z.vercel.app](https://iedc-website-yg4z.vercel.app)
+- **Sanity Studio (on Vercel):** [https://iedc-website-yg4z.vercel.app/studio](https://iedc-website-yg4z.vercel.app/studio)
+- **Hosted Studio (Fallback):** [https://s4nzdr3x.sanity.studio](https://s4nzdr3x.sanity.studio)
 
 ### CORS Authorization
 ```bash
 npx sanity cors add http://localhost:3000 --credentials
-npx sanity cors add https://your-production-domain.com --credentials
+npx sanity cors add https://iedc-website-yg4z.vercel.app --credentials
 ```
 
 ---
