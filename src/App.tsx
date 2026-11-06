@@ -919,11 +919,11 @@ export default function App() {
 
               <div className="flex flex-col gap-1 font-instrument text-xs text-[#666666] mt-1">
                 <a
-                  href={`mailto:${siteSettings.contactEmail || 'hello@iedcmtm.in'}`}
+                  href={`mailto:${siteSettings.contactEmail || 'IEDCMTM@gmail.com'}`}
                   className="hover:text-[#000000] transition-colors flex items-center gap-1.5"
                 >
                   <Mail className="w-3 h-3 text-[#888888]" />
-                  <span>{siteSettings.contactEmail || 'hello@iedcmtm.in'}</span>
+                  <span>{siteSettings.contactEmail || 'IEDCMTM@gmail.com'}</span>
                 </a>
                 <a
                   href={`tel:${(siteSettings.contactPhone || '+91 98470 00000').replace(/\s/g, '')}`}

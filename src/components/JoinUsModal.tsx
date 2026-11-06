@@ -12,7 +12,7 @@ interface JoinUsModalProps {
 export const JoinUsModal: React.FC<JoinUsModalProps> = ({ isOpen, onClose, siteSettings }) => {
   if (!isOpen) return null;
 
-  const email = siteSettings?.contactEmail || 'hello@iedcmtm.in';
+  const email = siteSettings?.contactEmail || 'IEDCMTM@gmail.com';
   const phone = siteSettings?.contactPhone || '+91 98470 00000';
 
   return (

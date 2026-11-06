@@ -1,4 +1,4 @@
-﻿import {defineField, defineType} from 'sanity'
+import {defineField, defineType} from 'sanity'
 
 export const siteSettingsType = defineType({
   name: 'siteSettings',
@@ -58,7 +58,8 @@ export const siteSettingsType = defineType({
       name: 'contactEmail',
       title: 'Contact Email',
       type: 'string',
-      description: 'Email displayed in the footer, e.g. "hello@iedcmtm.in".',
+      description: 'Email displayed in the footer, e.g. "IEDCMTM@gmail.com".',
+      initialValue: 'IEDCMTM@gmail.com',
       group: 'footer',
     }),
     defineField({
