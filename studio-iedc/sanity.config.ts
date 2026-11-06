@@ -35,6 +35,7 @@ const deskStructure = (S: any) =>
 export default defineConfig({
   name: 'default',
   title: 'IEDC MTM Studio',
+  basePath: '/studio',
 
   projectId: 's4nzdr3x',
   dataset: 'production',
